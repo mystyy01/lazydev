@@ -1,0 +1,2 @@
+# lazydev
+STOP BOILERPLATE.
