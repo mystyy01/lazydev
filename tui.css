@@ -1,0 +1,17 @@
+/* #title{
+    text-align: center;
+}
+#description{
+    text-align: center;
+} */
+
+#title, #description{
+    padding: 0 1 0 1;
+}
+
+#title{
+    color: #e24048;
+}
+#description{
+    color: #5080b3;
+}
