@@ -1,1 +1,1 @@
-selected:1
+/lib64

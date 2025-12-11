@@ -5,7 +5,7 @@
     text-align: center;
 } */
 
-#title, #description{
+#title, #description, #instruction{
     padding: 0 1 0 1;
 }
 
@@ -14,4 +14,8 @@
 }
 #description{
     color: #5080b3;
+}
+.details{
+    padding: 0 1 0 1;
+    text-align: right;
 }
