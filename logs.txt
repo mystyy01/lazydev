@@ -1,0 +1,331 @@
+/home/juxtaa/Coding/lazydev
+TreeNode('', DirEntry(path=PosixPath('/'), loaded=True))
+/
+TreeNode('boot', DirEntry(path=PosixPath('/boot'), loaded=False))
+/boot
+selected:Python Fast API
+/home/juxtaa/Coding/lazydev
+selected:Python Fast API
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+Deleted something
+Restarting app...
+Restarting app...
+selected:Python Flask
+Restarting app...
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+Restarting app...
+selected:Python Flask
+/home/juxtaa/Coding/lazydev
+selected:Python Fast Api
+/home/juxtaa/Coding/lazydev
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+Restarting app...
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+vite is running
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+vite is running
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+vite is running
+Restarting app...
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+Restarting app...
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+vite is running
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+vite is running
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+vite is running
+[stdout]
+200
+
+Restarting app...
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+vite is running
+[stdout]
+200
+
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+vite is running
+[stdout]
+200
+
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+vite is running
+[stdout]
+200
+
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+vite is running
+[stdout]
+200
+
+Restarting app...
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+vite is running
+[stdout]
+200
+
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+vite is running
+[stdout]
+200
+
+Restarting app...
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+vite is running
+[stdout]
+200
+
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+vite is running
+[stdout]
+200
+
+Restarting app...
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+vite is running
+[stdout]
+200
+
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+vite is running
+[stdout]
+200
+
+Restarting app...
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+vite is running
+[stdout]
+200
+
+Restarting app...
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+vite is running
+[stdout]
+200
+
+Restarting app...
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+vite is running
+[stdout]
+200
+
+Restarting app...
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+[stderr]
+Traceback (most recent call last):
+  File "/home/juxtaa/Coding/lazydev/./scripts/vite-app.py", line 6, in <module>
+    sigma
+NameError: name 'sigma' is not defined
+
+Restarting app...
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+[stderr]
+Traceback (most recent call last):
+  File "/home/juxtaa/Coding/lazydev/./scripts/vite-app.py", line 6, in <module>
+    sigma
+NameError: name 'sigma' is not defined
+
+Restarting app...
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+[stderr]
+Traceback (most recent call last):
+  File "/home/juxtaa/Coding/lazydev/./scripts/vite-app.py", line 6, in <module>
+    sigma
+NameError: name 'sigma' is not defined
+
+Restarting app...
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+[stderr]
+Traceback (most recent call last):
+  File "/home/juxtaa/Coding/lazydev/./scripts/vite-app.py", line 6, in <module>
+    sigma
+NameError: name 'sigma' is not defined
+
+Restarting app...
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+vite is running
+[stdout]
+200
+
+/home/juxtaa/Coding/lazydev
+vite is running
+[stdout]
+200
+
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+vite is running
+[stdout]
+200
+
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+vite is running
+[stdout]
+200
+
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+vite is running
+[stdout]
+200
+
+selected:Vite App
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+vite is running
+[stdout]
+200
+
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+vite is running
+[stdout]
+200
+
+Restarting app...
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+vite is running
+[stdout]
+200
+
+Restarting app...
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+vite is running
+[stdout]
+200
+
+Restarting app...
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+vite is running
+[stdout]
+200
+
+Restarting app...
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+vite is running
+[stdout]
+200
+
+Restarting app...
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+vite is running
+[stdout]
+200
+
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+vite is running
+[stdout]
+200
+
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+vite is running
+[stdout]
+200
+
+Restarting app...
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+vite is running
+[stdout]
+200
+Argument List: ['./scripts/vite-app.py', '/home/juxtaa/Coding/lazydev']
+
+selected:Python Fast Api
+TreeNode('Projects', DirEntry(path=PosixPath('/home/juxtaa/Coding/Projects'), loaded=True))
+/home/juxtaa/Coding/Projects
+Restarting app...
+selected:Vite App
+Restarting app...
+selected:Python Fast Api
+/home/juxtaa/Coding/lazydev
+[stdout]
+Project path is: /home/juxtaa/Coding/lazydev
+
+Restarting app...
+Restarting app...
+selected:Vite App
+Restarting app...
+selected:Python Fast Api
+TreeNode('Drill Translator', DirEntry(path=PosixPath('/home/juxtaa/Coding/Drill Translator'), loaded=True))
+/home/juxtaa/Coding/Drill Translator
+Restarting app...
+selected:Python Fast Api
+TreeNode('Drill Translator', DirEntry(path=PosixPath('/home/juxtaa/Coding/Drill Translator'), loaded=True))
+/home/juxtaa/Coding/Drill Translator
+Restarting app...
+selected:Vite App
+TreeNode('Bike Reselling', DirEntry(path=PosixPath('/home/juxtaa/Bike Reselling'), loaded=True))
+/home/juxtaa/Bike Reselling
+Running script: Vite App
+ with arguments: /home/juxtaa/Bike Reselling
+python Vite App '/home/juxtaa/Bike Reselling'vite is running
+[stdout]
+200
+Argument List: ['./scripts/vite-app.py', "'/home/juxtaa/Bike Reselling'"]
+
+Restarting app...
+selected:Vite App
+Restarting app...
+selected:Python Fast Api
+selected:Vite App
+selected:Python Fast Api
+TreeNode('bin', DirEntry(path=PosixPath('/bin'), loaded=False))
+/bin
+Running script: Python Fast Api
+ with arguments: /bin
+python Python Fast Api '/bin'[stdout]
+Project path is: '/bin'
+
+Restarting app...
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+Running script: Vite App
+ with arguments: /home/juxtaa/Coding/lazydev
+python Vite App '/home/juxtaa/Coding/lazydev'vite is running
+[stdout]
+200
+Argument List: ['./scripts/vite-app.py', "'/home/juxtaa/Coding/lazydev'", "'i love hairy black men'"]
+

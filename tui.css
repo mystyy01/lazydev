@@ -11,11 +11,38 @@
 
 #title{
     color: #e24048;
+    text-align: center;
 }
 #description{
     color: #5080b3;
+    text-align: center;
 }
 .details{
     padding: 0 1 0 1;
     text-align: right;
+}
+.success{
+    color: rgb(44, 221, 97);
+    padding: 1 1 1 1;
+    text-align: center;
+}
+.fail{
+    color: red;
+    padding: 1 1 1 1;
+    text-align: center;
+}
+.credits{
+    color: #5080b3;
+    padding: 1 1 1 1;
+    text-align: center;
+}
+#instruction{
+    color: #a0a0a0;
+    text-align: center;
+}
+#loading{
+    layout: vertical;       /* stack children vertically */
+    dock: bottom;
+    align: center middle;    /* center horizontally */
+    height: 20%;   
 }
