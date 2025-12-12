@@ -457,3 +457,18 @@ Downloaded create.sh
 Project path is: /home/juxtaa/Coding/lazydev
 Project name is: vite-app
 
+selected:Python Undetected Chromedriver
+/home/juxtaa/Coding/lazydev
+Running script: Python Undetected Chromedriver
+ with arguments: /home/juxtaa/Coding/lazydev
+python Python Undetected Chromedriver '/home/juxtaa/Coding/lazydev'Restarting app...
+selected:Python Undetected Chromedriver
+/home/juxtaa/Coding/lazydev
+Running script: Python Undetected Chromedriver
+ with arguments: /home/juxtaa/Coding/lazydev
+python Python Undetected Chromedriver '/home/juxtaa/Coding/lazydev'Downloaded main.py
+Downloaded requirements.txt
+[stdout]
+Project path is: /home/juxtaa/Coding/lazydev
+Project name is: uc-test
+
