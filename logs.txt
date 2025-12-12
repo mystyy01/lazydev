@@ -447,3 +447,13 @@ Downloaded start.sh
 Project path is: /home/juxtaa/Coding/lazydev
 Project name is: flask-server
 
+selected:Vite App
+/home/juxtaa/Coding/lazydev
+Running script: Vite App
+ with arguments: /home/juxtaa/Coding/lazydev
+python Vite App '/home/juxtaa/Coding/lazydev'Downloaded README.md
+Downloaded create.sh
+[stdout]
+Project path is: /home/juxtaa/Coding/lazydev
+Project name is: vite-app
+
