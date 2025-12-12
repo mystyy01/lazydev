@@ -420,3 +420,17 @@ Downloaded start.sh
 Project path is: /home/juxtaa/Coding/lazydev
 Project name is: testing
 
+selected:Python Fast Api
+TreeNode('Projects', DirEntry(path=PosixPath('/home/juxtaa/Coding/Projects'), loaded=True))
+/home/juxtaa/Coding/Projects
+Running script: Python Fast Api
+ with arguments: /home/juxtaa/Coding/Projects
+python Python Fast Api '/home/juxtaa/Coding/Projects'Downloaded README.md
+Downloaded api.py
+Downloaded requirements.txt
+Downloaded start.bat
+Downloaded start.sh
+[stdout]
+Project path is: /home/juxtaa/Coding/Projects
+Project name is: cool-api
+

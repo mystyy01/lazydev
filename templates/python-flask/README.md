@@ -1,4 +1,4 @@
-How to set up the lazydev fastapi template
+How to set up the lazydev flask template
 
 1. Create a virtual environment
 ```
@@ -16,10 +16,16 @@ pip install -r requirements.txt
 ```
 chmod +x start.sh
 ```
-4. Run it
+4. Run it (Linux / macOS)
 ```
 ./start.sh
 ```
+Or on Windows (PowerShell / CMD):
+```
+start start.bat
+```
+
 5. Have fun and build a great app!
 
 lazydev © 2025
+````
