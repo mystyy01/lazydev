@@ -8,6 +8,9 @@ from textual.binding import Binding
 import os
 import sys
 import asyncio
+
+script_dir = os.path.dirname(os.path.realpath(__file__))
+
 class App(App):
     CSS_PATH = "tui.css"
     async def credits(self):
@@ -36,13 +39,13 @@ class App(App):
         await self.mount(message)
         await self.credits()
     async def display_fail(self):
-        message = Static("Project creation failed. Check logs.txt for details or press 'r' to retry.", classes="fail")
+        message = Static(f"Project creation failed. Check {os.path.join(script_dir, 'lazydev.log')} for details or press 'r' to retry.", classes="fail")
         await self.mount(message)
         await self.credits()
     async def action_restart(self):
         """An action to restart the app."""
         # Optional: log restart
-        with open("logs.txt", "a") as f:
+        with open(os.path.join(script_dir, "lazydev.log"), "a") as f:
             f.write("Restarting app...\n")
 
         python = sys.executable  # Path to python
@@ -51,13 +54,13 @@ class App(App):
     async def load_scripts(self, script):
         self.loading = LoadingIndicator(id="loading")
         await self.mount(self.loading)
-        with open("logs.txt", "a") as f:
+        with open(os.path.join(script_dir, "lazydev.log"), "a") as f:
             f.write(f"Running script: {script}\n with arguments: {self.project_path}\n")
-            f.write(f"python {script} '{self.project_path}'")
+            f.write(f"/home/juxtaa/Coding/lazydev/venv/bin/python /home/juxtaa/Coding/lazydev/scripts/{script} '{self.project_path}'")
         proc = await asyncio.create_subprocess_exec(
             # run the script selected
-            "python",
-            f"./scripts/{script.lower().replace(' ', '-')}.py",
+            "/home/juxtaa/Coding/lazydev/venv/bin/python",
+            f"/home/juxtaa/Coding/lazydev/scripts/{script.lower().replace(' ', '-')}.py",
             f"'{self.project_path}'",
             f"'{self.project_name}'",
             stdout=asyncio.subprocess.PIPE,
@@ -69,17 +72,19 @@ class App(App):
 
         self.loading.remove()
         if stdout:
-            with open("logs.txt", "a") as f:
+            with open(os.path.join(script_dir, "lazydev.log"), "a") as f:
                 f.write(f"[stdout]\n{stdout.decode()}\n")
             await self.display_success()
         if stderr:
-            with open("logs.txt", "a") as f:
+            with open(os.path.join(script_dir, "lazydev.log"), "a") as f:
                 f.write(f"[stderr]\n{stderr.decode()}\n")
             await self.display_fail()
     async def on_mount(self):
         self.instruction = self.query_one("#instruction", Static)
         options = []
-        for script in os.listdir(os.getcwd() + "/scripts"):
+        for script in os.listdir(script_dir + "/scripts"):
+            if script.endswith(".py") is False:
+                continue
             index = script.find(".")
             script = script[:index]
             script = script.replace("-", " ").title()
@@ -93,7 +98,7 @@ class App(App):
         self.instruction.update("Pick a name")
         selected_value = event.option.prompt
         self.selected_value = selected_value
-        with open("logs.txt", "a") as f:
+        with open(os.path.join(script_dir, "lazydev.log"), "a") as f:
             f.write("selected:" + str(selected_value) + "\n")
         print("Selected: ", selected_value)
         await self.options.remove()
@@ -110,7 +115,7 @@ class App(App):
     async def on_key(self, event: Key):
         if event.key == "c":
             self.project_path = os.getcwd()
-            with open("logs.txt", "a") as f:
+            with open(os.path.join(script_dir, "lazydev.log"), "a") as f:
                 f.write(self.project_path + "\n")
             self.file_explorer.remove()
             await self.mount(Static("Project directory: " + self.project_path, classes="details"))
@@ -119,11 +124,11 @@ class App(App):
             if self.file_explorer.is_mounted:
                 node = self.file_explorer.cursor_node
                 if node:
-                    with open("logs.txt", "a") as f:
+                    with open(os.path.join(script_dir, "lazydev.log"), "a") as f:
                         f.write(str(node) + "\n")
                     path = node.data.path
                     self.project_path = str(path)
-                    with open("logs.txt", "a") as f:
+                    with open(os.path.join(script_dir, "lazydev.log"), "a") as f:
                         f.write(self.project_path + "\n")
                     self.file_explorer.remove()
                     await self.mount(Static("Project directory: " + self.project_path, classes="details"))
@@ -146,7 +151,7 @@ class App(App):
 ██  ▀▀█▄ ▀▀▀██ ██ ██ ▄████ ▄█▀█▄ ██ ██ 
 ██ ▄█▀██   ▄█▀ ██▄██ ██ ██ ██▄█▀ ██▄██ 
 ██ ▀█▄██ ▄██▄▄  ▀██▀ ▀████ ▀█▄▄▄  ▀█▀  
-                ██                    
+                        ██           by mystyy         
              ▀▀▀▀                     
         """, id="title")
         yield Static("the solution to boilerplate.", id="description")

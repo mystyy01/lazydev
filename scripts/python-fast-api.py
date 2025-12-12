@@ -2,6 +2,7 @@ import os
 import sys
 from time import sleep
 import requests
+script_dir = os.path.dirname(os.path.realpath(__file__))
 
 path = sys.argv[1].replace("'", "")
 print("Project path is:", path)
@@ -23,10 +24,10 @@ def pull_template(path, project_name):
             if file_res.status_code == 200:
                 with open(os.path.join(complete_path, file_name), 'wb') as f:
                     f.write(file_res.content)
-                with open("logs.txt", "a") as log:
+                with open(os.path.join(script_dir, "lazydev.log"), "a") as log:
                     log.write(f"Downloaded {file_name}\n")
             else:
-                with open("logs.txt", "a") as log:
+                with open(os.path.join(script_dir, "lazydev.log"), "a") as log:
                     log.write(f"Failed to download {file_name}\n")
 
 

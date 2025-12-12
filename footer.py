@@ -1,12 +1,15 @@
 from textual.app import App, ComposeResult
 from textual.binding import Binding
 from textual.widgets import Footer
+import os
+
+script_dir = os.path.dirname(os.path.realpath(__file__))
 
 
 class FooterApp(App):
     async def action_delete(self):
         """An action to delete the thing."""
-        with open("logs.txt", "a") as f:
+        with open(os.path.join(script_dir, "lazydev.log"), "a") as f:
             f.write("Deleted something\n")
         pass
     BINDINGS = [

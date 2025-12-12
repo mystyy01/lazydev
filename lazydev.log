@@ -1,0 +1,24 @@
+selected:Python Undetected Chromedriver
+/home/juxtaa/Coding/Projects
+Running script: Python Undetected Chromedriver
+ with arguments: /home/juxtaa/Coding/Projects
+python Python Undetected Chromedriver '/home/juxtaa/Coding/Projects'[stderr]
+python: can't open file '/home/juxtaa/Coding/Projects/./scripts/python-undetected-chromedriver.py': [Errno 2] No such file or directory
+
+Restarting app...
+selected:Python Undetected Chromedriver
+/home/juxtaa/Coding/Projects
+Running script: Python Undetected Chromedriver
+ with arguments: /home/juxtaa/Coding/Projects
+/home/juxtaa/Coding/lazydev/venv/bin/python /home/juxtaa/Coding/lazydev/scripts/Python Undetected Chromedriver '/home/juxtaa/Coding/Projects'[stderr]
+python: can't open file '/home/juxtaa/Coding/Projects/./scripts/python-undetected-chromedriver.py': [Errno 2] No such file or directory
+
+Restarting app...
+selected:Python Undetected Chromedriver
+/home/juxtaa/Coding/Projects
+Running script: Python Undetected Chromedriver
+ with arguments: /home/juxtaa/Coding/Projects
+/home/juxtaa/Coding/lazydev/venv/bin/python /home/juxtaa/Coding/lazydev/scripts/Python Undetected Chromedriver '/home/juxtaa/Coding/Projects'[stdout]
+Project path is: /home/juxtaa/Coding/Projects
+Project name is: testing-lazy-dev
+
