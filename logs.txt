@@ -329,3 +329,94 @@ python Vite App '/home/juxtaa/Coding/lazydev'vite is running
 200
 Argument List: ['./scripts/vite-app.py', "'/home/juxtaa/Coding/lazydev'", "'i love hairy black men'"]
 
+selected:Python Fast Api
+/home/juxtaa/Coding/lazydev
+Running script: Python Fast Api
+ with arguments: /home/juxtaa/Coding/lazydev
+python Python Fast Api '/home/juxtaa/Coding/lazydev'[stdout]
+Project path is: '/home/juxtaa/Coding/lazydev'
+Project name is: 'testing-lazy-dev'
+
+[stderr]
+Traceback (most recent call last):
+  File "/home/juxtaa/Coding/lazydev/./scripts/python-fast-api.py", line 34, in <module>
+    pull_template(path, project_name)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/home/juxtaa/Coding/lazydev/./scripts/python-fast-api.py", line 25, in pull_template
+    with open(os.path.join(path, file_name), 'wb') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: "'/home/juxtaa/Coding/lazydev'/'testing-lazy-dev'/README.md"
+
+Restarting app...
+Restarting app...
+Restarting app...
+selected:Python Fast Api
+/home/juxtaa/Coding/lazydev
+Running script: Python Fast Api
+ with arguments: /home/juxtaa/Coding/lazydev
+python Python Fast Api '/home/juxtaa/Coding/lazydev'[stdout]
+Project path is: /home/juxtaa/Coding/lazydev
+Project name is: testing-lazy-dev
+
+[stderr]
+Traceback (most recent call last):
+  File "/home/juxtaa/Coding/lazydev/./scripts/python-fast-api.py", line 32, in <module>
+    pull_template(path, project_name)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/home/juxtaa/Coding/lazydev/./scripts/python-fast-api.py", line 23, in pull_template
+    with open(os.path.join(path, file_name), 'wb') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/juxtaa/Coding/lazydev/testing-lazy-dev/README.md'
+
+Restarting app...
+selected:Python Fast Api
+/home/juxtaa/Coding/lazydev
+Running script: Python Fast Api
+ with arguments: /home/juxtaa/Coding/lazydev
+python Python Fast Api '/home/juxtaa/Coding/lazydev'Downloaded README.md
+Downloaded api.py
+Downloaded requirements.txt
+Downloaded start.bat
+Downloaded start.sh
+[stdout]
+Project path is: /home/juxtaa/Coding/lazydev
+Project name is: testing
+
+Restarting app...
+selected:Python Fast Api
+/home/juxtaa/Coding/lazydev
+Running script: Python Fast Api
+ with arguments: /home/juxtaa/Coding/lazydev
+python Python Fast Api '/home/juxtaa/Coding/lazydev'Downloaded README.md
+Downloaded api.py
+Downloaded requirements.txt
+Downloaded start.bat
+Downloaded start.sh
+[stdout]
+Project path is: /home/juxtaa/Coding/lazydev
+Project name is: testing
+
+/home/juxtaa/Coding/lazydev
+Running script: Python Fast Api
+ with arguments: /home/juxtaa/Coding/lazydev
+python Python Fast Api '/home/juxtaa/Coding/lazydev'Downloaded README.md
+Downloaded api.py
+Downloaded requirements.txt
+Downloaded start.bat
+Downloaded start.sh
+[stdout]
+Project path is: /home/juxtaa/Coding/lazydev
+Project name is: testing
+
+/home/juxtaa/Coding/lazydev
+Running script: Python Fast Api
+ with arguments: /home/juxtaa/Coding/lazydev
+python Python Fast Api '/home/juxtaa/Coding/lazydev'Downloaded README.md
+Downloaded api.py
+Downloaded requirements.txt
+Downloaded start.bat
+Downloaded start.sh
+[stdout]
+Project path is: /home/juxtaa/Coding/lazydev
+Project name is: testing
+
