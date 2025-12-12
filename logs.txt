@@ -434,3 +434,16 @@ Downloaded start.sh
 Project path is: /home/juxtaa/Coding/Projects
 Project name is: cool-api
 
+selected:Python Flask
+/home/juxtaa/Coding/lazydev
+Running script: Python Flask
+ with arguments: /home/juxtaa/Coding/lazydev
+python Python Flask '/home/juxtaa/Coding/lazydev'Downloaded README.md
+Downloaded app.py
+Downloaded requirements.txt
+Downloaded start.bat
+Downloaded start.sh
+[stdout]
+Project path is: /home/juxtaa/Coding/lazydev
+Project name is: flask-server
+
