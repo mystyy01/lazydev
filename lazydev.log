@@ -23,3 +23,27 @@ Project path is: /home/juxtaa/Coding/Projects
 Project name is: testing-lazy-dev
 
 selected:Python Flask
+selected:Vite App
+/mnt/ssd/Coding/lazydev
+Running script: Vite App
+ with arguments: /mnt/ssd/Coding/lazydev
+/home/juxtaa/Coding/lazydev/venv/bin/python /home/juxtaa/Coding/lazydev/scripts/Vite App '/mnt/ssd/Coding/lazydev'selected:Vite App
+selected:Vite App
+selected:Textual Tui
+/mnt/ssd/Coding/lazydev
+Running script: Textual Tui
+ with arguments: /mnt/ssd/Coding/lazydev
+/mnt/ssd/Coding/lazydev/venv/bin/python /mnt/ssd/Coding/lazydev/scripts/Textual Tui '/mnt/ssd/Coding/lazydev'[stderr]
+Traceback (most recent call last):
+  File "/mnt/ssd/Coding/lazydev/scripts/textual-tui.py", line 4, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+selected:Textual Tui
+/mnt/ssd/Coding/lazydev
+Running script: Textual Tui
+ with arguments: /mnt/ssd/Coding/lazydev
+/mnt/ssd/Coding/lazydev/venv/bin/python /mnt/ssd/Coding/lazydev/scripts/Textual Tui '/mnt/ssd/Coding/lazydev'[stdout]
+Project path is: /mnt/ssd/Coding/lazydev
+Project name is: tui-app
+

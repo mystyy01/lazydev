@@ -56,11 +56,11 @@ class App(App):
         await self.mount(self.loading)
         with open(os.path.join(script_dir, "lazydev.log"), "a") as f:
             f.write(f"Running script: {script}\n with arguments: {self.project_path}\n")
-            f.write(f"/home/juxtaa/Coding/lazydev/venv/bin/python /home/juxtaa/Coding/lazydev/scripts/{script} '{self.project_path}'")
+            f.write(f"{script_dir}/venv/bin/python {script_dir}/scripts/{script} '{self.project_path}'")
         proc = await asyncio.create_subprocess_exec(
             # run the script selected
-            "/home/juxtaa/Coding/lazydev/venv/bin/python",
-            f"/home/juxtaa/Coding/lazydev/scripts/{script.lower().replace(' ', '-')}.py",
+            f"{script_dir}/venv/bin/python",
+            f"{script_dir}/scripts/{script.lower().replace(' ', '-')}.py",
             f"'{self.project_path}'",
             f"'{self.project_name}'",
             stdout=asyncio.subprocess.PIPE,
